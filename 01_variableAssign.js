@@ -2,7 +2,7 @@ var myFullName;
 console.log(myFullName);
 myFullName= "Amutkumar Shinde";
 console.log(myFullName);
-myFullName="Amitkumar Machindranath Shinde";
+myFullName="Amitkumar M Shinde";
 console.log(myFullName);
 var myLove="I Love Only JS";
 console.log(myLove);
