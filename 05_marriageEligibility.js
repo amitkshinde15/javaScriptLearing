@@ -11,8 +11,8 @@ function marriageEligibilty(gender,age,name){
     }
 
 }
-marriageEligibilty("male",25,"Sachin");
-marriageEligibilty("male",20,"Virat");
-marriageEligibilty("female",19,"Deepika");
-marriageEligibilty("female",17,"Karina");
-marriageEligibilty("male",21,"Rahul");
+marriageEligibilty("male",17,"Sachin");
+marriageEligibilty("male",25,"Virat");
+marriageEligibilty("female",28,"Deepika");
+marriageEligibilty("female",16,"Karina");
+
