@@ -10,3 +10,4 @@ for (let index = 0; index < sentence.length; index++) {
     }   
 }
 console.log(`Total vowels in string is : ${counter}`);
+
