@@ -23,7 +23,7 @@ console.log(`---------- Sum of Cube of numbers -----------------------------`);
 function cubeof(number) {
   var sumOfCube = 0;
   for (let i = 1; i <= number; i++) {
-    var cube = i * i * i;
+    var cube = Math.pow(i,3);
     sumOfCube = sumOfCube + cube;
   }
   console.log(`Sum of Cube from 1 to ${number} = ${sumOfCube}`);
