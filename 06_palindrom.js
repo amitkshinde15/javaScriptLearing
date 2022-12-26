@@ -1,4 +1,4 @@
-console.log("Validating given string is palindrome or not\n");
+console.log("--------Validating given string is palindrome or not--------");
 function palindrome(str){
     var reverse = "";
     for(let i=str.length-1;i>=0;i--){
@@ -15,7 +15,7 @@ function palindrome(str){
 palindrome("amit");
 palindrome("anna");
 
-console.log("Validating given number is palindrome or not\n");
+console.log("--------Validating given number is palindrome or not--------");
 function palnum(num){
     var reverse =0;
     while (num>0) {
