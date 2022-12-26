@@ -24,11 +24,11 @@ let indexOf7 = arrayOfNumbers.indexOf(7);
 for(let i=0;i<totalElements;i++){
     let s=1;
     if(arrayOfNumbers[i]==7){
+        
+        console.log(`${s}th Index of element 7 --> ${indexOf7}`);
+        s++;
        
-        console.log(`${s}st Index of element 7 --> ${indexOf7}`);
-        s=s+1;
-       
-    }
+    } 
     
 }
 
