@@ -15,7 +15,7 @@ console.log(
   "---------------------------------------------------------------------------------------------------"
 );
 
-fruits_seasonal.splice(fruits_seasonal.length - 2, 1);
+fruits_seasonal.splice(fruits_seasonal.length - 2,1);
 console.log(`03. After removing Mango "${fruits_seasonal}"`);
 console.log(
   "---------------------------------------------------------------------------------------------------"
