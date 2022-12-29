@@ -26,11 +26,13 @@ for (let i = 0; i < lengthOfarray; i++) {
   }
 }
 console.log(`05. Odd numbers in array ${odd}`);
-var evenPos = "";
+// var evenPos = "";
+var evenPos =[];
 for (let i = 0; i < lengthOfarray; i++) {
   if (i % 2 == 0) {
     // console.log(`Even Numbers in array ${arrayNumbers[i]}`);
-    evenPos = evenPos + " " + arrayNumbers[i];
+    // evenPos = evenPos + " " + arrayNumbers[i];
+   evenPos.push(arrayNumbers[i]);
   }
 }
 console.log(`06. Even possitioned numbers in array ${evenPos}`);
@@ -78,3 +80,7 @@ arrayNumbers.splice(4, 3);
 console.log(
   `13. Afetr deleting 3 numbers from index 4 in array "${arrayNumbers}"`
 );
+
+var arrayNumbers = [20, 31, 40, 25, 23, 11, 29, 9, 60, 2, 11];
+var slice = arrayNumbers.slice(1,6);
+console.log(slice);

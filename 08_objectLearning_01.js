@@ -84,10 +84,30 @@ const billgates = {
     height: 6,
     weight: 70,
     age: 23,
-    name: "Billgates"
+    name: "Billgates",
+    company : "Microsoft",
+    valuation : "$130B"
 }
-console.log(Object.entries(billgates));
-console.log(Object.keys(billgates));
-console.log(Object.values(billgates));
+console.log(`========== in operator ==================`);
+  let isAvailable = "height" in billgates;
+  console.log(isAvailable);
+  if (isAvailable) {
+    delete billgates.height;
+    console.log(`height property deleted successfully`);
+  }else{
+    console.log(`height property is not available in billgates object`); 
+  }
+// console.log(Object.entries(billgates));
+// console.log(Object.keys(billgates));
+// console.log(Object.values(billgates));
+console.log(`========== for in loop ==================`);
+for (const key in billgates) {
+  if (Object.hasOwnProperty.call(billgates, key)) {
+    const element = billgates[key];
+   
+    console.log(key, element);
+    
+  }
+}
 
 

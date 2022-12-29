@@ -17,10 +17,7 @@ const professor = {
     third: "Certificate in Adv programming",
   },
   value: function () {
-    return (
-      professor.degrees.engineering.concat(" ",professor.degrees.PHD, " ",professor.degrees.MS)
-      
-    );
+    return (professor.degrees.engineering.concat(" ",professor.degrees.PHD, " ",professor.degrees.MS));
   },
 };
 console.log(`01. Professor Information`);
@@ -36,6 +33,7 @@ professor.city = "Pune";
 console.log(
   `05. Added new property in object professor is city name ${professor.city}`
 );
+
 console.log(professor);
 professor.subject = "JavaScript Programming";
 console.log(`06. Modifying existing property subject`);

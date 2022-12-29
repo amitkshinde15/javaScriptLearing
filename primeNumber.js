@@ -13,6 +13,6 @@ function prime(number) {
     }
   }
 }
-prime(17);
+prime(11);
 prime(18);
 prime(0);
