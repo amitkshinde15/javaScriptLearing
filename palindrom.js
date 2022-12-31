@@ -20,8 +20,8 @@ function palnum(num) {
   temp = num;
   while (num > 0) {
     var remainder = num % 10;
-    num = parseInt(num / 10);
     reverse = reverse * 10 + remainder;
+    num = parseInt(num / 10);
   }
   if (temp == reverse) {
     console.log(`Given number ${temp} = ${reverse} is palindrome number`);
