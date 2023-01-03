@@ -11,7 +11,7 @@ function palindrome(str) {
   } else console.log(`Given string is not Palindrome`);
 }
 palindrome("amit");
-palindrome("anna");
+palindrome("Anna");
 
 console.log("--------Validating given number is palindrome or not--------");
 function palnum(num) {
