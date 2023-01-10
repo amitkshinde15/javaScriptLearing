@@ -54,7 +54,7 @@ array_numbers.forEach((value) => {
 console.log(`Sum of all array elements = ${sum}`);
 
 console.log(
-  `-------------- 06. Log only even postioned array value using arrow funtion ---------------------------`
+  `-------------- 06. Log only even possitioned array value using arrow funtion ---------------------------`
 );
 evenPossitionarray = [];
 array_numbers.forEach((value, index) => {
