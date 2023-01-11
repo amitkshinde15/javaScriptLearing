@@ -28,5 +28,5 @@ map_employees.forEach((employeeDetails, empId) => {
   console.log(
     `${empId}===> Name:${employeeDetails.emp_name}, Dept:${employeeDetails.emp_dept}, Company:${employeeDetails.emp_company}, Salary:${employeeDetails.emp_salary}`
   );
-//   console.log(empId +" ===>",  employeeDetails);
+  //console.log(empId +" ===>",  employeeDetails);
 });
