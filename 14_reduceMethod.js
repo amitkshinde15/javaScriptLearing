@@ -1,6 +1,6 @@
 const arrayOfNumber = [0, 2, 3, 5, 6, 8 ];
 const result = arrayOfNumber.reduce( (runningTotal, value) => {
-    return runningTotal * value; // 200 + 2
+    return runningTotal + value; // 200 + 2
 });console.log(result);
 
 const array = [20, 11, 40, 25, 37, 49, 9, 90, 60, 2, 19];
