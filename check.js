@@ -36,5 +36,3 @@ array_emps.filter((empId) => {
         console.log(salary);
        });
 
-      
-     

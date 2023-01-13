@@ -56,16 +56,12 @@ console.log(
   `------------------ 04. All Employees whose name starts with 'A' OR 'V' OR 'M' -----------------`
 );
 const nameOfEmp = array_emps.filter((names) => {
-  return names.emp_name;
+  return names.emp_name.startsWith("A") ||
+  names.emp_name.startsWith("V") ||
+  names.emp_name.startsWith("M");
 });
 nameOfEmp.forEach((element) => {
-  if (
-    element.emp_name.startsWith("A") ||
-    element.emp_name.startsWith("V") ||
-    element.emp_name.startsWith("M")
-  ) {
-    console.log(element.emp_name);
-  }
+  console.log(element.emp_name);      
 });
 console.log(
   `--------------- 05. Average salary of the employees ------------------------------`
