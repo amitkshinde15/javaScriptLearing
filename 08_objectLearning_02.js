@@ -22,3 +22,4 @@ function Student(name, rollNo, age){
  // Object is an instance of class
  let isInstance = vinny instanceof Student;
 console.log(isInstance);
+console.log(jenny.name);

@@ -33,7 +33,9 @@ const arrayTransform = arrayOfNumber.map((currentValue)=>{
         let mahindra = new Vehicle("Mahindra","Thar","Petrol","Four Wheel Drive",2000000);
         let honda =new Vehicle("Honda","Unicorn","Petrol","Two Wheeler",125000);
         let hero =new Vehicle("Hero","Splender","Petrol","Two Wheeler",85000);
+        
         const arrayOfVehicles = [ audiA3, audiQ3, mahindra, honda, hero];
+        
         const arrayOfVehicleObject = arrayOfVehicles.map( (vehicle)=> {
             vehicle.price = vehicle.price - 10000; // 8000000 - 10000
             return vehicle;

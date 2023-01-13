@@ -17,3 +17,4 @@ promiseToShareNotes.then(function success(fulfilled){
     console.log("In case sir shared notes - I will use it");
     console.log("In case sir does not shared notes - I will prepare my own notes..");
 });
+
