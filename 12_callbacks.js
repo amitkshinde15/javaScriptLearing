@@ -22,6 +22,7 @@ anilHomeWork(sunilHomeWork);
 setTimeout(function show() {
   console.log("This is show function. .");
 }, 3000);
+console.log("==================================================");
 
 console.log("Callback with arg functions");
 let add = function (n1, n2){
@@ -36,3 +37,5 @@ function operation(callbackAdd, callbackMultiply) {
   callbackMultiply(2, 2);
 }
 operation(add, multiply);
+
+

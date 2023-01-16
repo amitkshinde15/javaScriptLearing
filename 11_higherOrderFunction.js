@@ -8,7 +8,7 @@ function anotherFunction(){
      let innerFunction = function(){
         console.log("Inner function.....");
     }
-    return innerFunction;
+   return innerFunction;
 }
 let inner = show(anotherFunction);
 inner();

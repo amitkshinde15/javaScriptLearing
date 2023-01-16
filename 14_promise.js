@@ -1,5 +1,5 @@
-let isNotesPrepared = false;
-let promiseToShareNotes = new Promise(function(success, reject){
+let isNotesPrepared = true;
+let promiseToShareNotes = new Promise(function(success, reject) {
     if (isNotesPrepared) {
         success("Hey guys take this notes please...");
     }else{
@@ -8,6 +8,7 @@ let promiseToShareNotes = new Promise(function(success, reject){
 });
 promiseToShareNotes.then(function success(fulfilled){
     console.log(fulfilled);
+    console.log("Received notes.. ");
 }).catch(function failure(rejected){
     console.log("Sir why have not shared notes.. ");
     console.log(rejected);
@@ -17,4 +18,6 @@ promiseToShareNotes.then(function success(fulfilled){
     console.log("In case sir shared notes - I will use it");
     console.log("In case sir does not shared notes - I will prepare my own notes..");
 });
+
+
 
