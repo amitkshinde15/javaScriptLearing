@@ -25,14 +25,14 @@ function z( ) {
  };
 
  const arraydup = [10,17,16,98,10,52,98];
- let dup = arraydup.filter((value, index)=>{
+  let unique = arraydup.filter((value, index)=>{
     return arraydup.indexOf(value) == index;
  });
- console.log(dup);
- let dup1 = arraydup.filter((value, index)=>{
-    return arraydup.indexOf(value) != index;
+ console.log(unique);
+ let dup = arraydup.filter((value, index)=>{
+     return arraydup.indexOf(value) != index;
  });
- console.log(dup1);
+ console.log(dup);
 
  
 
