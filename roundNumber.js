@@ -12,3 +12,4 @@ let index = 2;
 let rep = 'e';
 let replaceName = string.substring(0,index) + rep + string.substring(index+1);
 console.log(replaceName);
+

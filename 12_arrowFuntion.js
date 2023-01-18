@@ -20,3 +20,5 @@ let multiply = (n1, n2) => {
 };
 let mulResult = multiply(5, 5);
 console.log(mulResult);
+
+
