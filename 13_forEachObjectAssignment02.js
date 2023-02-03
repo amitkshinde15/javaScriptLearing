@@ -17,8 +17,10 @@ const emp_viny = new Employee(77, "Vinayak", "IT", 75000, "TCS");
 const emp_mahi = new Employee(99, "Mahesh", "HR", 85000, "Infy");
 
 let arrayOfEmployee = [emp_anil, emp_radha, emp_rishi, emp_sonali, emp_monika, emp_viny, emp_mahi];
+
 console.log(`--------------- 01. TCS employee Details ----------------------------------------------`);
 arrayOfEmployee.forEach((employeeDetails) => {
+    //console.log(employeeDetails);
     if(employeeDetails.emp_company == "TCS"){
     console.log(`Employee Name : ${employeeDetails.emp_name}, Employee Company : ${employeeDetails.emp_company}`);
     }
