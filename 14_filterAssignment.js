@@ -50,4 +50,8 @@ empDetails.forEach((element) => {
   );
 });
 
-
+const arrayNumbers = [20, 11, 40, 25, 37, 49, 9, 90, 60, 2, 19];
+const filterarray = arrayNumbers.filter((num)=>{
+  return num >=20 && num<= 50; 
+});
+console.log(filterarray);

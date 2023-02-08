@@ -15,3 +15,10 @@ console.log("Chaining methods");
 const resultSum = array.filter( value => value%2==0)
 .reduce((runningTotal, value) => runningTotal + value);
 console.log(resultSum);
+
+const ave = arrayOfNumber.reduce((runningValue, value)=>{
+   
+    return runningValue + value;
+    
+});
+console.log(ave/arrayOfNumber.length);

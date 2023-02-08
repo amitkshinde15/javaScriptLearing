@@ -39,3 +39,12 @@ function operation(callbackAdd, callbackMultiply) {
 operation(add, multiply);
 
 
+function message(){
+  console.log("Hello");
+return function(){
+  console.log("I am learning java");
+}
+}
+message()();
+
+
