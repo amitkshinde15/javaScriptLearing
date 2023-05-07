@@ -16,7 +16,7 @@ palindrome("Anna");
 console.log("--------Validating given number is palindrome or not--------");
 function palnum(num) {
   let temp;
-  let reverse = 0;
+  let reverse = 0;  
   temp = num;
   while (num > 0) {
     var remainder = num % 10;
@@ -29,5 +29,5 @@ function palnum(num) {
     console.log(`Given number ${temp} != ${reverse} is not palindrome number`);
   }
 }
-palnum(153);
+palnum(153);  
 palnum(535);

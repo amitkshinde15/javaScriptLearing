@@ -41,3 +41,4 @@ for(var i=90;i>=10;i=i-10){
     num = num + "  " +i;
 }
 console.log(num);
+

@@ -18,3 +18,5 @@ myNumber = -77.333;
 console.log(`myNumber values ${myNumber} and it's type is: ${typeof myNumber}`);
 var strMyNumber = myNumber.toString();
 console.log(`strMyNumber values ${strMyNumber} and it's type is: ${typeof strMyNumber}`);
+
+

@@ -3,6 +3,7 @@ function monthOfYear(monthNumber) {
     case 1:
       console.log(`${monthNumber} : "Month is January"`);
       break;
+      
     case 2:
       console.log(`${monthNumber} : "Month is February"`);
       break;
@@ -36,9 +37,7 @@ function monthOfYear(monthNumber) {
     case 12:
       console.log(`${monthNumber} : "Month is December"`);
       break;
-    default:
-      console.log(`${monthNumber} : "Please provide valid month number"`);
-      break;
+   
   }
 }
 monthOfYear(2);

@@ -44,3 +44,4 @@ console.log(professor.certificates);
 console.log(`08. After adding new certificate`);
 professor.certificates.third = "Advance java";
 console.log(professor.certificates);
+
